@@ -56,6 +56,11 @@ public class UserBean {
 	public void setDeleteDate(Date deleteDate) {
 		this.deleteDate = deleteDate;
 	}
+	@Override
+	public String toString() {
+		return "UserBean [id=" + id + ", username=" + username + ", password=" + password + ", profile=" + profile
+				+ ", insertDate=" + insertDate + ", updateDate=" + updateDate + ", deleteDate=" + deleteDate + "]";
+	}
 	
 	
 }
